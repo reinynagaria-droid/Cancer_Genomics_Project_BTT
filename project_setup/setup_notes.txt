@@ -1,0 +1,11 @@
+xSCRIPT- 
+1.	cd ~
+2.	ls
+3.	mkdir Cancer_genomics_project_BTT
+4.	cd Cancer_genomics_project_BTT 
+5.	mkdir README.md  data  figures  project_setup  results  scripts
+6.	pwd ls 
+7.	cd project_setup
+8.	touch setup_notes.txt
+ 
+

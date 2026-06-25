@@ -1,0 +1,19 @@
+# Environment 
+sigprofiler_env/
+data/input/
+__pycache__/
+.Rhistory
+.RData
+.ipynb_checkpoints/
+
+# Raw TCGA data
+*.maf
+*.maf.gz
+
+# Generated outputs
+data/output/
+results/
+figures/
+
+# Temporary files
+logs/
