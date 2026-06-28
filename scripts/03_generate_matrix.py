@@ -2,10 +2,10 @@ from SigProfilerMatrixGenerator.scripts import SigProfilerMatrixGeneratorFunc as
 
 def main():
     matGen.SigProfilerMatrixGeneratorFunc(
-        "project",
-        "GRCh38",
-        "data/",
-        exome=False
+        "project",  # Project name 
+        "GRCh38",  # Reference genome
+        "data/", # Directory containing MAF files
+        exome=False  # Whole genome style matrix generation
     )
 
 if __name__ == "__main__":

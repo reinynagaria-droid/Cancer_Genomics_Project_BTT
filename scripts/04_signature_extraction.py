@@ -1,3 +1,4 @@
+# Extract de novo mutational signatures from the SBS96 matrix
 from SigProfilerExtractor import sigpro as sig
 
 def main():

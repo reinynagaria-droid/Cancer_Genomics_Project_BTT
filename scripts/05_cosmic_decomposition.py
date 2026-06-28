@@ -1,3 +1,4 @@
+# Assign extracted de novo signatures to COSMIC reference signatures
 from SigProfilerAssignment import Analyzer as Analyze
 
 Analyze.cosmic_fit(

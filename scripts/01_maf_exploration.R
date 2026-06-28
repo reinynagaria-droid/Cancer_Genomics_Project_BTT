@@ -13,13 +13,17 @@ coad <- read.maf("data/TCGA-COAD.maf.gz")
 luad_summary <-  getSampleSummary(luad)
 coad_summary <-  getSampleSummary(coad)
 
+print(head(luad_summary))
+print(head(coad_summary))
  
 # Gene summaries
 luad_genes <- getGeneSummary(luad)
 coad_genes <- getGeneSummary(coad)
 
-# view top mutated genes
-#paste the commands here to print gene and sample summaries 
+print(head(luad_genes))
+print(head(coad_genes))
+
+# view top mutated genes 
 
 #mutation summary plot - LUAD 
 pdf("figures/LUAD_mutation_summary.pdf")
@@ -32,7 +36,7 @@ pdf("figures/COAD_mutation_summary.pdf")
 plotmafSummary(maf = coad)
 dev.off()
 
-#LUAD oncoplot
+# generate LUAD oncoplot
 pdf("figures/LUAD_oncoplot.pdf")
 oncoplot(
           maf = luad,
@@ -40,7 +44,7 @@ oncoplot(
 )
 dev.off()
 
-#COAD oncoplot 
+# generate COAD oncoplot 
 pdf("figures/COAD_oncoplot.pdf")
 oncoplot(
         maf = coad,
