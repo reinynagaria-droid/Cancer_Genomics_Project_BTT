@@ -1,0 +1,53 @@
+SOFTWARE AND PACKAGE INSTALLATION
+
+R Installation
+
+1. sudo apt update
+
+2. sudo apt upgrade -y
+
+3. sudo apt install r-base r-base-dev -y
+
+
+BiocManager Installation
+
+1. R
+
+2. install.packages("BiocManager")
+
+
+System Dependencies for maftools
+
+1. sudo apt install libcurl4-openssl-dev libssl-dev libbz2-dev liblzma-dev -y
+
+
+maftools Installation
+
+1. R
+
+2. BiocManager::install("maftools")
+
+
+Python Virtual Environment
+
+1. python3 -m venv sigprofiler_env
+
+2. source sigprofiler_env/bin/activate
+
+3. pip install --upgrade pip
+
+
+SigProfiler Package Installation
+
+1. pip install SigProfilerMatrixGenerator
+
+2. pip install SigProfilerExtractor
+
+3. pip install SigProfilerAssignment
+
+
+Additional Python Packages
+
+1. pip install pandas
+
+2. pip install numpy

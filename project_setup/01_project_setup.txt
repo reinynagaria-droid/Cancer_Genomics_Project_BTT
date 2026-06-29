@@ -1,0 +1,33 @@
+PROJECT SETUP
+
+1. Navigate to the home directory
+
+cd ~
+
+2. View existing files and directories
+
+ls
+
+3. Create the project directory
+
+mkdir Cancer_genomics_project_BTT
+
+4. Enter the project directory
+
+cd Cancer_genomics_project_BTT
+
+5. Create the project folder structure
+
+mkdir data figures project_setup results scripts
+
+6. Create the README file
+
+touch README.md
+
+7. Verify the current working directory
+
+pwd
+
+8. Verify the project structure
+
+ls

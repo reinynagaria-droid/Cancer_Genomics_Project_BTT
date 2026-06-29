@@ -1,0 +1,38 @@
+ENVIRONMENT VERIFICATION
+
+Verify R Installation
+
+1. R --version
+
+2. R
+
+3. library(maftools)
+
+
+Verify Python Installation
+
+1. python3 --version
+
+2. source sigprofiler_env/bin/activate
+
+
+Verify SigProfilerMatrixGenerator
+
+1. python3
+
+2. from SigProfilerMatrixGenerator.scripts import SigProfilerMatrixGeneratorFunc
+
+
+Verify SigProfilerExtractor
+
+1. from SigProfilerExtractor import sigpro
+
+
+Verify SigProfilerAssignment
+
+1. from SigProfilerAssignment import Analyzer
+
+
+Exit Python
+
+exit()
